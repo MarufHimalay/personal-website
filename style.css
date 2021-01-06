@@ -65,10 +65,10 @@ div{
     text-align: justify;
 }
 p{
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 520;
+    font-size: 15px;
     font-family: Roboto, sans-serif;
-    color: #3E3E3E;
+    color: dimgray;
 }
 .link-button{
     text-decoration: none;
@@ -88,8 +88,11 @@ p{
 .orange-highlight{
     color: lightsalmon;
 }
+.blue-highlight{
+    color: #676dac;
+}
 .grey-highlight{
-    color: #363958;
+    color: rgb(61, 65, 117);
 }
 #text-align{
     padding-left: 100px;
@@ -111,7 +114,7 @@ p{
     font-weight: 500;
 }
 #email{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: #363958;
     font-weight: 700;
@@ -142,4 +145,18 @@ p{
     margin-right: 5%;
     font-size: 20px;
     color:dimgray;
+}
+#offer{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: ;
+    font-weight: 600;
+    text-shadow: 1px;
+    box-shadow: 3px 3px 30px lightblue;
+    text-align: justify;
+    margin: 100px;
+    padding: 60px;
+    background-image: linear-gradient(lightSalmon, tomato);
+    background-color: orange;
+    border-radius: 30px;
 }
